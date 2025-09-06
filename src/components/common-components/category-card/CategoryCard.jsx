@@ -8,6 +8,7 @@ import Link from "next/link";
 
 // Custom MenuList with search input
 const CategoryCard = ({data}) => {
+console.log(data);
 
   return (
     <div className="card">
@@ -21,7 +22,7 @@ const CategoryCard = ({data}) => {
       />
       <div className="card-body">
         <h4 className="card-title">
-          <Link href={`/category/${data?.title}/category-id`}>{data?.title}</Link>
+          <Link href={`/category/${data?.id}`}>{data?.title}</Link>
         </h4>
       </div>
       <div className="card-footer d-flex gap-1">

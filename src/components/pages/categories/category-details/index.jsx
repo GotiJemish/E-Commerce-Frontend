@@ -2,7 +2,8 @@ import ProductCard from '@/components/common-components/product-card/ProductCard
 import Image from 'next/image';
 import React from 'react'
 
-const CategoryProducts = (props) => {
+const CategoryDetails = ({categoryId}) => {
+  
   return (
     <>
       <h1>category products list</h1>
@@ -49,4 +50,4 @@ const CategoryProducts = (props) => {
   );
 };
 
-export default CategoryProducts;
+export default CategoryDetails;
