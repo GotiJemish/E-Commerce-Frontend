@@ -1,0 +1,53 @@
+/* ----------------------------------------------------
+Project: Harson- Admin Panel
+Author:DCPL Technology Private Limited
+-------------------------------------------------------- */
+.datepicker-wrapper {
+  position: relative;
+  width: 100%;
+
+  .react-datepicker-wrapper {
+    display: block;
+  }
+  .icon {
+    position: absolute;
+    bottom: 12px;
+    right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    aspect-ratio: 1;
+  }
+}
+
+.react-datepicker__input-container {
+  border: none !important;
+  display: block;
+  width: 100%;
+}
+
+.custom-react-datepicker-input {
+  border-radius: 8px;
+  border: 1px solid var(--border-primary) !important;
+  color: var(--text-primary);
+  padding: 12px;
+  font-weight: var(--fw-400);
+  font-size: var(--fs-14);
+  line-height: var(--lh-16);
+  width: 100%;
+  border: none;
+
+  &:focus {
+    border: 1px solid var(--primary);
+    box-shadow: none;
+  }
+  &:focus-visible {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.react-datepicker-ignore-onClickoutside {
+  border: 1px solid var(--primary) !important;
+}

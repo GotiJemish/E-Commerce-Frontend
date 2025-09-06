@@ -1,0 +1,47 @@
+/* ----------------------------------------------------
+Project: B2B-Template
+Author:DCPL Technology Private Limited
+-------------------------------------------------------- */
+/* .comman-search{
+   
+    background-color: var(--white-300);
+    border: 1px solid var(--border-primary);
+    &:focus{
+        box-shadow: none !important;
+        border-color: var(--border-primary);
+    }
+} */
+.search-container {
+    position: relative;
+
+    width: 350px;
+
+    input {
+        width: 100%;
+        padding: 10px 8px 10px 32px;
+        border: 1px solid var(--border-primary);
+        border-radius: 8px;
+        color: var(--text-primary);
+        outline: none;
+        background-color: var(--white-300);
+        font-size: var(--fs-14);
+        line-height: var(--lh-18);
+
+        &::placeholder {
+            color: var(--text-secondary);
+        }
+    }
+
+    .search-icon {
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14px;
+        height: 14px;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+}

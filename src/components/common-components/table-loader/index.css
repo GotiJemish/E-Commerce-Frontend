@@ -1,0 +1,10 @@
+.table-loader-wrapper {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-loader-wrapper .spinner-border {
+  color: #0f345e !important; /* Custom loader color */
+}

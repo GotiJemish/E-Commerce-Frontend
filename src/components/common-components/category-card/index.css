@@ -1,0 +1,187 @@
+/* ----------------------------------------------------
+Project:B2B-Template
+Author:DCPL Technology Private Limited
+
+Note:- Not Change Any CSS Postion In This File.
+-------------------------------------------------------- */
+
+.searchable-select {
+    max-width: 700px;
+
+    .form-input-cover .icon {
+        left: 10px;
+        bottom: 9px;
+    }
+
+    .form-control {
+        padding: 8px;
+    }
+
+    .form-control::placeholder {
+        padding-left: 16px;
+        color: var(--gray-400);
+    }
+}
+
+.search-select {
+    display: block;
+
+    border-right: none;
+
+    color: var(--text-primary);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-14);
+    line-height: var(--lh-16);
+
+    .search__indicators {
+        margin-right: 14px;
+        margin-left: 12px;
+    }
+
+    .search__value-container {
+        padding: 10px;
+    }
+
+    .table__control {
+        min-height: 32px;
+    }
+
+    .search__input-container {
+        padding: 2px;
+        margin: 0px;
+        font-weight: var(--fw-400);
+        font-size: var(--fs-14);
+        line-height: var(--lh-16);
+    }
+
+    .search__indicator-separator {
+        display: none;
+    }
+
+    .search__control {
+        border: 1px solid var(--border-primary) !important;
+        border-radius: 8px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right: none;
+        padding: 0;
+        width: 100%;
+        min-width: 504px;
+    }
+
+    .search__control--is-focused {
+        border-color: var(--primary) !important;
+        box-shadow: none;
+        /* background-color: var(--primary); */
+    }
+
+    .search__control--menu-is-open {
+        .search__indicators {
+            transform: rotate(180deg);
+        }
+    }
+
+    .search__menu {
+        margin: 0px;
+        margin-top: 4px;
+        /* padding: 12px; */
+        border: 1px solid var(--border-primary);
+        overflow: auto;
+        box-shadow: 0px 4px 24px 0px var(--shadow-1);
+        border-radius: 8px;
+        background-color: var(--white);
+
+        .search__menu-list {
+            padding: 10px !important;
+
+            display: flex;
+            flex-direction: column;
+
+            .options {
+                padding: 8px;
+                border-radius: 6px;
+
+                .round-main {
+                    width: 36px;
+                    aspect-ratio: 1;
+                    background-color: var(--border-primary);
+                    color: var(--text-primary);
+                    font-size: var(--fs-12);
+                    font-weight: var(--fw-500);
+                }
+
+                .label {
+
+                    font-size: var(--fs-12);
+                    line-height: var(--lh-16);
+                    color: var(--text-primary);
+
+                }
+
+                .sub-label {
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                }
+
+                &:last-child {
+                    border-radius: 0;
+                    margin-top: 10px;
+                    padding: 4px;
+                    padding-bottom: 0px;
+                    border-top: 1px solid var(--border-primary);
+                    background-color: var(--white) !important;
+                }
+
+                .new-customer-cover {}
+
+            }
+
+            .hover {
+                background-color: var(--primary);
+
+                .round-main {
+                    background-color: var(--white);
+                }
+
+                .label {
+                    color: var(--white);
+                }
+
+                .sub-label {
+                    color: var(--white);
+
+                    .icon {
+                        svg {
+                            path {
+                                stroke: var(--white);
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+
+}
+
+.select--is-disabled {
+    .css-16xfy0z-control {
+        background-color: var(--white-400);
+
+    }
+}
+
+.search-btn {
+    background-color: var(--primary);
+    height: 42px;
+    aspect-ratio: 1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

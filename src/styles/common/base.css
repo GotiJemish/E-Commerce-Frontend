@@ -1,0 +1,287 @@
+/* ================================================
+   Project: Invitewala Reseller Panel
+   Author: DCPL Technology Private Limited.
+=================================================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: roboto-font, sans-serif !important;
+}
+
+body {
+font-family: Roboto, sans-serif !important;;
+    font-optical-sizing: auto;
+    font-weight: var(--fw-400);
+    font-style: normal;
+    background-color: var(--white-300) !important;
+    overflow-x: hidden;
+    height: 100%;
+    color: var(--text-secondary);
+    font-size: var(--fs-14);
+    line-height: var(--lh-28);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+.loader-item {
+    z-index: 9999999;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.40);
+    opacity: 1;
+}
+
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+img:focus-visible {
+    outline: none;
+}
+
+.side-title {
+    color: var(--text-primary);
+    line-height: var(--lh-24);
+    font-size: var(--fs-20) ;
+}
+
+.credit-card h5 {
+    color: var(--text-primary);
+    font-size: var(--fs-26);
+
+}
+
+
+
+.z-6 {
+    z-index: 6;
+}
+
+.z-7 {
+    z-index: 7;
+}
+
+.z-8 {
+    z-index: 8;
+}
+
+.z-9 {
+    z-index: 9;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.z-11 {
+    z-index: 11;
+}
+
+.z-12 {
+    z-index: 12;
+}
+
+.z-13 {
+    z-index: 13;
+}
+
+.z-14 {
+    z-index: 14;
+}
+
+.z-15 {
+    z-index: 15;
+}
+
+.z-9999 {
+    z-index: 9999;
+}
+
+.bg-toast-success {
+    background-color: var(--green-one) !important;
+    border-color: var(--green) !important;
+    color: var(--green) !important;
+}
+
+.bg-toast-success svg {
+    color: var(--green) !important;
+}
+
+.bg-toast-danger {
+    background-color: var(--pink) !important;
+    border-color: var(--red) !important;
+    color: var(--red) !important;
+}
+
+.bg-toast-danger svg {
+    color: var(--red) !important;
+}
+
+.bg-toast-warning {
+    background-color: var(--orange-one) !important;
+    border-color: var(--orange) !important;
+    color: var(--orange) !important;
+}
+
+.bg-toast-warning svg {
+    color: var(--orange) !important;
+}
+
+.common-shadow {
+    background-clip: padding-box !important;
+    box-shadow: 0 .1875rem .75rem 0 var(--muted-nineteen) !important;
+}
+
+
+
+.base-search {
+    min-width: 250px;
+    max-width: 250px;
+}
+.border-none{
+    border: none !important;
+}
+
+.textarea-height {
+    min-height: 200px !important;
+    max-height: 200px !important;
+}
+
+
+
+
+
+.common-table-foot-new {
+    border-top: 1px solid var(--muted-six);
+    padding: 24px 32px 24px 28px;
+}
+
+.common-mb-space {
+    margin-bottom: 34px;
+}
+
+.common-mt-space {
+    margin-top: 24px;
+}
+
+.table-input {
+    height: 20px;
+    width: 20px;
+    box-shadow: none;
+}
+
+.btn.btn-link {
+    color: var(--purple);
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.btn.btn-link:hover {
+    color: var(--purple);
+}
+
+.gray-300 {
+    color: var(--gray-300);
+}
+
+.yellow {
+    color: var(--yellow) !important;
+}
+
+.green {
+    color: var(--green) !important;
+}
+
+.red {
+    color: var(--red) !important;
+}
+
+.primary {
+    color: var(--primary) !important;
+}
+
+.bg-white{
+    background-color: var(--white);
+}
+.bg-yellow {
+    background-color: var(--bg-yellow);
+}
+
+.bg-green {
+    background-color: var(--bg-green);
+}
+
+.bg-primary {
+    background-color: var(--bg-primary) !important;
+}
+
+.bg-red {
+    background-color: var(--bg-red);
+}
+
+
+.text-secondary{
+    color: var(--text-secondary);
+}
+.text-primary{
+    color: var(--text-primary) !important;
+}
+
+.comman-shadow {
+    box-shadow: 0px 4px 40px 0px var(--shadow-01) !important;
+}
+.common-one-shadow {
+    box-shadow: 0 .125rem .375rem 0 var(--purple-four) !important;
+}
+
+/* <------- Media Query Start -------> */
+@media screen and (max-width:1920px) {
+
+
+
+    .common-table-foot-new {
+        padding: 16px 16px 16px 16px;
+    }
+
+    .common-mb-space {
+        margin-bottom: 24px;
+    }
+
+    .common-mt-space {
+        margin-top: 0px;
+    }
+
+    .table-input {
+        height: 14px;
+        width: 14px;
+    }
+
+    .textarea-height {
+        min-height: 150px !important;
+        max-height: 150px !important;
+    }
+
+    .credit-card p {
+
+        font-size: var(--fs-15) !important;
+    }
+
+    
+}
+
+/* <------- Media Query End -------> */

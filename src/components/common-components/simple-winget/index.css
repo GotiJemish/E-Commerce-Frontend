@@ -1,0 +1,25 @@
+.simple-winget {
+    border: 1px solid var(--border-primary);
+    padding: 22px 14px;
+max-width: 250px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 6px;
+    }
+    .text {
+        color: var(--text-primary);
+        font-weight: var(--fw-600);
+        font-size: var(--fs-16);
+        line-height: var(--lh-20);
+
+    }
+}

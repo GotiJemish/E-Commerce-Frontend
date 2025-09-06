@@ -1,0 +1,46 @@
+/* ----------------------------------------------------
+Project: Harson-Template
+Author:DCPL Technology Private Limited
+
+Note: Not Change Any CSS Position In This File
+-------------------------------------------------------- */
+.comman-back-path {
+      .title {
+            font-weight: var(--fw-500);
+            font-size: var(--fs-22);
+            line-height: var(--lh-28);
+            color: var(--text-primary);
+      }
+
+      .breadcrumb {
+
+            .breadcrumb-item {
+                  color: var(--text-secondary);
+                  font-size: var(--fs-12);
+                  line-height: var(--lh-16);
+
+                  &::before {
+                        color: var(--text-secondary);
+                  }
+
+                  a {
+                        color: var(--text-secondary);
+                        text-decoration: none;
+
+                        font-size: var(--fs-12);
+                        line-height: var(--lh-16);
+
+                  }
+            }
+      }
+
+      i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+
+      }
+
+}

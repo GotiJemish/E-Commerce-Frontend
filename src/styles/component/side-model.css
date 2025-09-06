@@ -1,0 +1,17 @@
+.side-model {
+    .modal-dialog {
+        margin: 16px;
+        margin-left: auto;
+        min-width: 732px;
+
+        .modal-content {
+            max-width: 100%;
+
+        }
+    }
+
+.form-section{
+    border-bottom: 1px solid var(--border-primary);
+}
+
+}

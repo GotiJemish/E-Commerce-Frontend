@@ -1,0 +1,143 @@
+.comman-model {
+
+    .modal-content {
+        max-width: 386px;
+        position: relative;
+        padding: 30px;
+        margin: 0 auto;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 24px;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+
+    .modal-header {
+        padding: 0;
+        border-color: var(--border-primary);
+        opacity: 1;
+
+        .modal-title {
+
+            font-weight: var(--fw-500);
+            font-size: var(--fs-18);
+            line-height: var(--lh-22);
+            text-transform: capitalize;
+            color: var(--primary);
+        }
+
+        .avtar {
+            width: 32px;
+            aspect-ratio: 1;
+            display: flex;
+            background-color: var(--border-primary);
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .modal-footer {
+        justify-content: flex-start;
+
+        .buttons-cover {
+            margin-top: 20px;
+            display: flex;
+            gap: 16px;
+            margin-bottom: 0;
+        }
+    }
+
+    .modal-body {
+        .description {
+            color: var(--text-secondary);
+
+            font-size: var(--fs-14);
+            line-height: var(--lh-28);
+            /* text-align: center; */
+
+        }
+    }
+
+    .form-cover {
+        margin-bottom: 20px;
+    }
+
+}
+
+.modal-btn {
+    width: 135px;
+}
+
+
+
+.custom-modal-overlay {
+  
+    position: fixed;
+    top: 63px;
+    left: 250px;
+    width: calc(100% - 250px);
+    height: calc(100vh - 66px);
+  
+    background-color: var(--white-300);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    overflow: auto;
+}
+
+.custom-modal {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-300);
+
+
+    .modal-header {
+        padding: 24px;
+        /* position: sticky;
+        top: 0;
+        left: 0; */
+        background-color: var(--white-300);
+        /* z-index: 1; */
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .close-btn {
+            width: 24px;
+            aspect-ratio: 1;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+
+        }
+    }
+
+    .modal-body {
+        .side-content {
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: 100%;
+            max-width: calc(100% - 1176px);
+        }
+    }
+
+
+   
+
+}

@@ -1,0 +1,120 @@
+/* ================================================
+   Project: Invitewala Reseller Panel
+   Author: DCPL Technology Private Limited.
+=================================================== */
+
+:root {
+    --white: #FFFFFF;
+    --white-100: #FCFCFC;
+    --white-200: #F9F9F9;
+    --white-300: #FDFDFD;
+    --white-400: #F3F4F6;
+    --white-500: #F6F6F6;
+    --white-600: #F3F5F7;
+    --white-700: #F8F8F8;
+    --white-800: #FBFBFB;
+
+
+
+    --primary: #0F345E;
+
+    --primary-100: #0F345E0D;
+    --primary-200: #0F345E26;
+    --primary-300: #0F345E12;
+
+    --red-100: #D11D1E1A;
+
+
+    --gray-100: #C6C6C6;
+    --gray-200: #C9C9C9;
+    --gray-300: #808080;
+--gray-400:#BFBFBF;
+
+    --black: #000000;
+    --shadow-01: #0000000A;
+
+    --border-primary: #EAEAEA;
+    --border-100: #F4F4F4;
+    --border-200:#F2F2F2;
+
+    --text-primary: #13160F;
+    --text-secondary: #6C718A;
+
+
+    --bg-yellow: #FFF9E4;
+    --bg-green: #E4FFF0;
+    --bg-primary: #E7EBEF;
+    --bg-red: #FFEEEE;
+
+
+    --yellow: #FFAE00;
+    --green: #28C76F;
+    --red: #D11D1E;
+
+    --chip-yellow: #FFC30026;
+
+    --shadow-1: #0000000F;
+
+
+    /* --white-one: #f8f7fa;
+    --white-two: #ffffff1c;
+    --white-three: #ffffff00;
+    --white-four: #ffffffe0;
+    --white-five: #22292F;
+    --black: #000000;
+    --black-one: #444050;
+    --black-two: #f0f0f1;
+    --dark-skyblue: #00bad1;
+    --muted: #6d6b77;
+    --muted-one: #808390;
+    --muted-two: #8d8a94;
+    --muted-three: #97959e;
+    --muted-four: #acaab1;
+    --muted-five: #b4b3b9;
+    --muted-six: #e6e6e8;
+    --muted-seven: #ebebed;
+    --muted-eight: #eeedf0;
+    --muted-nine: #eeeeee;
+    --muted-ten: #eeeeef;
+    --muted-eleven: #2F2B3D0F;
+    --muted-twelve: #2f2b291f;
+    --muted-thirdteen: #f8f7fab3;
+    --muted-fourteen: #f8f7fa6e;
+    --muted-fifthteen: #f8f7fa00;
+    --muted-sixteen: #2f2b3d1f;
+    --muted-seventeen: #f3f2f3;
+    --muted-eighteen: #2f2b3d29;
+    --muted-nineteen: #2f2b3d24;
+    --muted-twenty: #82808b;
+    --muted-twentyone: #d1d0d4;
+    --muted-twentytwo: #e2e2e2;
+    --muted-twentythree: #4b4b4b;
+    --muted-twentyfour: #f3f3f4;
+    --muted-twentyfive: #2f2b3d14;
+    --muted-twentysix: #EFEEF0;
+    --muted-twentyseven: #eff2f7;
+    --muted-twentyeight: #2f2b3d1a;
+    --muted-twentynine: #e1e1e4;
+    --cyan: #d6f4f8;
+    --purple: #A5596A;
+    --purple-two: #eedce2;
+    --purple-three: #A5596Ab3;
+    --purple-four: #A5596A4d;
+    --purple-five: #964C5D;
+    --purple-six: #8176f2;
+    --orange: #ff9f43;
+    --orange-one: #fff0e1;
+    --pink: #ffe2e3;
+    --red: #ff4c51;
+    --red-one: #e64449;
+    --red-two: #fcf1ef;
+    --green: #28c76f;
+    --green-one: #ddf6e8;
+    --blue: #edf7fe;
+    --dark-blue: #052e63;
+    --dark-blue-one: #edf7fe;
+    --dark-cyan: #06948d;
+    --dark-cyan-one: #edf7fe;
+    --yellow: #ffc600;
+    --yellow-one: #fff8e5; */
+}

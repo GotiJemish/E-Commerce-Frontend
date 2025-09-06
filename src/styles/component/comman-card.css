@@ -1,0 +1,11 @@
+.comman-card{
+    background-color: var(--white);
+    border-radius: 12px;
+    border: 1px solid var(--border-primary);
+    padding: 16px 28px;
+    *{
+        font-size: var(--fs-14);
+        line-height: var(--lh-24);
+    }
+   
+}

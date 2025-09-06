@@ -1,0 +1,385 @@
+
+export const QuotationTableData = [
+  {
+    id: "01",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "02",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "03",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "04",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "05",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "06",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "07",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "08",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "09",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "10",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "11",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "12",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "13",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+  {
+    id: "14",
+    q_date: "02/04/2025",
+    q_id: "hb-000001",
+    c_id: "#001",
+    c_name: "ABC Engineering",
+    mobile: "99999 88888",
+    status: "sent",
+    amount: "$28,000.00",
+    created_At: "02/04/2025 ,09:05 AM",
+    updated_At: "02/04/2025 ,09:05 AM",
+  },
+];
+
+export const serviceData = [
+  { value: "freight", label: "Freight" },
+  { value: "clearance", label: "Clearance" },
+  { value: "freight&clearance", label: "Freight + Clearance" },
+  { value: "epcg-licence", label: "EPCG License Registration" },
+];
+
+export const PortList = [
+  { value: "nhavasheva", label: "Nhavasheva" },
+  { value: "sachin", label: "ICD Sachin" },
+  { value: "tumb", label: "ICD Tumb" },
+  { value: "hazira", label: "Hazira" },
+];
+
+export const shippingProducts = [
+  {
+    value: "digital-inkjet-printing",
+    label: "Digital Inkjet Printing Machine",
+  },
+  { value: "repair", label: "Rapier Looms" },
+  { value: "jacquard", label: "Jacquard Machine" },
+  { value: "embroidery", label: "Embroidery Machine" },
+  { value: "airjet", label: "Airjet Loom" },
+];
+
+export const dutyDropDownOptions = [
+  { value: "duty", label: "Duty" },
+  { value: "epcg", label: "EPCG" },
+];
+
+// new customer radio
+export const customerType = [
+  {
+    value: "customer",
+    label: "Customer",
+  },
+  {
+    value: "dealer",
+    label: "Dealer",
+  },
+  {
+    value: "other",
+    label: "Other",
+  },
+];
+
+export const addressType = [
+  {
+    value: "office",
+    label: "Office",
+  },
+  {
+    value: "factory",
+    label: "Factory",
+  },
+];
+
+export const viewQuotationTableData = [
+  {
+    item: "Shipping Line Charges (Depends on Shipping Line)  (40 FEET)",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "CFS Charges Approx (40 FEET)",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "Transportation Charges Approx (40 FEET)",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "Stamp Duty",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "Agency Charge",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "Ocean Freight 40 Feet (USD 2000*88.5)+ 5% GST",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "Endorsement Charges",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "Cargo Insurance",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "EPCG License Reg. Charges",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "EPCG License Issue Charges",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+  {
+    item: "Installation Certificate Charges",
+    quantity: 1,
+    rate: 40000.0,
+    creditable_gst: 6101.69,
+    amount: 40000.0,
+  },
+];
+
+export const revisionData = [
+  {
+    name: "Darlene Robertson",
+    amount: 11000,
+    id: "HE2526-0001/03",
+    update_by: "Hareshkumar Gadhiya",
+    last_update: "30th July’2024",
+    created_on: "29th July’2024",
+  },
+  {
+    name: "Darlene Robertson",
+    amount: 11000,
+    id: "HE2526-0001/03",
+    update_by: "Hareshkumar Gadhiya",
+    last_update: "30th July’2024",
+    created_on: "29th July’2024",
+  },
+  {
+    name: "Darlene Robertson",
+    amount: 11000,
+    id: "HE2526-0001/03",
+    update_by: "Hareshkumar Gadhiya",
+    last_update: "30th July’2024",
+    created_on: "29th July’2024",
+  },
+  {
+    name: "Darlene Robertson",
+    amount: 11000,
+    id: "HE2526-0001/03",
+    update_by: "Hareshkumar Gadhiya",
+    last_update: "30th July’2024",
+    created_on: "29th July’2024",
+  },
+];
+
+export const historyData = [
+  {
+    date: "14th Apr 2025",
+    actions: [
+      {
+        revision: true,
+        time: "12:55 PM",
+        name: " Haresh Gadhiya",
+        id: "HB-0000001 / 02",
+      },
+      {
+        update: true,
+        notes: "Insurance charge Update",
+        time: "03:04 PM",
+        name: " Haresh Gadhiya",
+      },
+    ],
+  },
+  {
+    date: "13th Apr 2025",
+    actions: [
+      {
+        revision: true,
+        time: "11:10 AM",
+        name: " Haresh Gadhiya",
+        id: "HB-0000001 / 01",
+      },
+    ],
+  },
+  {
+    date: "12th Apr 2025",
+    actions: [
+      {
+         create: true,
+        time: "12:55 PM",
+        name: " Haresh Gadhiya",
+        id: "HB-0000001",
+      },
+    ],
+  },
+];

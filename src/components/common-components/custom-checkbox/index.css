@@ -1,0 +1,24 @@
+/* ----------------------------------------------------
+Project: Harson Admin Panel
+Author:DCPL Technology Private Limited
+
+Note: Not Change Any CSS Position In This File
+-------------------------------------------------------- */
+.custom-checkbox{
+    .form-check-input{
+        margin: 0;
+        border-color: var(--text-secondary);
+        &:focus{
+            box-shadow: none;
+            border-color: var(--primary);
+        }
+        &:checked{
+            background-color: var(--primary);
+            border-color: var(--primary);
+        }
+    }
+    .form-check-input:checked[type="checkbox"]{
+        --bs-form-check-bg-image:url("/images/icons/tick-mark.svg")
+    }
+    
+}

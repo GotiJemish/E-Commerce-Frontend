@@ -1,0 +1,54 @@
+.long-toggle.form-check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px 14px 12px;
+    background-color: var(--white-700);
+    border-radius: 6px;
+
+   
+
+    .form-check-label {
+        font-size: var(--fs-14);
+        line-height: var(--lh-18);
+        color: var(--text-primary);
+    }
+}
+
+
+.toggler.form-check {
+     display: flex;
+   gap: 10px;
+    align-items: center;
+   
+   
+
+.form-check-label {
+        font-size: var(--fs-14);
+        line-height: var(--lh-24);
+        color: var(--text-primary);
+    }
+
+
+    .form-check-input {
+        margin: 0;
+        order: 1;
+        border: 2px solid var(--gray-100);
+        background-color: var(--gray-100);
+        display: block;
+        /* background-position: 100%; */
+        --bs-form-switch-bg: url("/images/icons/toggle.svg");
+        height: 20px;
+        width: 36px;
+
+        &:focus {
+            box-shadow: none !important;
+        }
+
+        &:checked {
+            /* background-position: 0; */
+            border-color: var(--primary);
+            background-color: var(--primary);
+        }
+    }
+}

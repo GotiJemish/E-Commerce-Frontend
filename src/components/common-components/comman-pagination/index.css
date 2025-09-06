@@ -1,0 +1,70 @@
+/* ----------------------------------------------------
+Project: Harson-Admin Panel
+Author:DCPL Technology Private Limited
+-------------------------------------------------------- */
+.custom-pagination {
+    li {
+        width: 26px;
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        cursor: pointer;
+
+        span {
+            font-weight: var(--fw-400);
+            font-size: var(--fs-14);
+            line-height: var(--lh-18);
+            color: var(--text-secondary);
+        }
+        i{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 16px;
+            aspect-ratio: 1;
+            svg{
+                path{
+                    stroke:var(--text-primary);
+                }
+            }
+        }
+        &:hover{
+            background-color: var(--primary);
+            span{
+                color: var(--white);
+            }
+            i{
+                svg{
+                    path{
+                        stroke: var(--white);
+                    }
+                }
+            }
+        }
+    }
+    .prev-btn{
+        margin-right: 12px;
+    }
+    .next-btn{
+        margin-left: 12px;
+    }
+    .active{
+        background-color: var(--primary);
+        span{
+            color: var(--white);
+        }
+    }
+    .disabled{
+        background-color: var(--white) !important;
+        cursor: auto !important;
+        i{
+            svg{
+                path{
+                    stroke:var(--text-secondary) !important;
+                }
+            }
+        }
+    }
+}

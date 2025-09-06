@@ -1,0 +1,98 @@
+/* ================================================
+   Project: Invitewala Reseller Panel
+   Author: DCPL Technology Private Limited.
+=================================================== */
+
+.table-winget {
+    padding: 22px;
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    min-width: 240px;
+    box-shadow: 0px 4px 0 0 var(--primary);
+    /* border-bottom: 4px solid var(--primary); */
+}
+
+.table-winget p {
+   
+    font-weight: var(--fw-500);
+    font-size: var(--fs-14);
+    line-height: var(--lh-18);
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+
+.table-winget h5 {
+    font-weight: var(--fw-600);
+    font-size: var(--fs-24) ;
+    color: var(--text-primary);
+    line-height: var(--lh-30);
+}
+
+.table-winget .icon {
+   top: 24px;
+    right: 24px;
+    width: 34px;
+aspect-ratio: 1;
+background-color: var(--primary-200);
+border-radius: 4px;
+}
+
+
+.my-credit-winget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-credit-winget .image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+
+}
+
+.my-credit-winget .image-content img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+/* <------- Media Query Start -------> */
+
+@media screen and (max-width:1920px) {
+    /* .table-winget {
+        padding: 22px;
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    min-width: 240px;
+    } */
+
+    .table-winget p {
+       
+    }
+
+    .table-winget h5 {
+        
+    }
+
+    .table-winget .icon {
+       
+    }
+}
+
+@media screen and (max-width:1500px) {
+    /* .table-winget { */
+        /* padding: 16px 16px; */
+    /* } */
+
+}
+
+@media screen and (max-width:1399px) {
+    /* .table-winget {
+        padding: 16px 24px;
+    } */
+   
+}
+
+/* <------- Media Query End -------> */

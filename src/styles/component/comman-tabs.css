@@ -1,0 +1,28 @@
+.horizontal-tab.nav-tabs{
+    border-bottom: 1px solid var(--border-primary);
+    .nav-item{
+        .nav-link{
+            border: none;
+            font-size: var(--fs-14);
+line-height: var(--lh-18);
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+border-top-left-radius:6px ;
+border-top-right-radius: 6px;
+transition: all 0.3s ease-in-out;
+
+color: var(--text-secondary);
+&:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+        }
+        .active{
+            background-color: var(--primary);
+            color: var(--white);
+
+
+        }
+    }
+}

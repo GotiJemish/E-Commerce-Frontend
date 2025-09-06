@@ -1,0 +1,60 @@
+
+.tbl-input.form-control {
+    border-radius: 8px;
+    border: 1px solid var(--border-primary);
+    color: var(--text-primary);
+    padding: 12px;
+    font-weight: var(--fw-400);
+    font-size: var(--fs-14);
+    line-height: var(--lh-16);
+   width: 100%;
+      background-color: transparent;
+  
+}
+
+ .form-control::placeholder {
+
+    font-weight: var(--fw-400);
+    font-size: var(--fs-14);
+    line-height: var(--lh-18);
+    text-transform: capitalize;
+    color: var(--text-secondary);
+}
+
+ .form-control:focus {
+    border: 1px solid var(--primary);
+    box-shadow: none;
+     background-color: transparent;
+}
+
+
+
+
+.form-control:disabled {
+    background-color: var(--white-400);
+}
+
+.form-control.is-invalid{
+    background-image: none !important;
+    border-color: var(--red) !important;
+}
+.form-control.is-invalid:focus{
+    box-shadow: none !important;
+}
+
+
+
+/* input[type="number" i] {
+background-color: red;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+
+}

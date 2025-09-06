@@ -1,0 +1,64 @@
+/* ----------------------------------------------------
+Project: Harson-Template
+Author:DCPL Technology Private Limited
+-------------------------------------------------------- */
+.filter-btn.btn {
+    padding: 10px !important;
+    border-radius: 6px !important;
+border: none !important;
+
+    /* span {
+        font-size: var(--fs-14) !important;
+        line-height: var(--lh-18) !important;
+    } */
+
+    i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+
+.filter-btn.btn-primary {
+    /* background-color: var(--primary); */
+    background-color: var(--primary-200);
+    border-color: var(--primary-200);
+
+    span {
+        color: var(--white);
+    }
+
+    &:hover {}
+
+}
+
+.filter-btn.btn-outline-primary {
+    border-color: var(--border-primary);
+    opacity: 1;
+
+    span {
+        color: var(--text-secondary);
+    }
+
+    &:hover {
+        border-color: var(--text-secondary);
+        background-color: transparent;
+
+        span {
+            color: var(--primary);
+        }
+    }
+
+    &:active {
+        background-color: var(--white) !important;
+        border-color: var(--primary) !important;
+    }
+}
+
+.filter-btn.btn-danger {
+    background-color: var(--red);
+}

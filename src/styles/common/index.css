@@ -1,0 +1,20 @@
+/* ================================================
+   Project: Invitewala Reseller Panel
+   Author: DCPL Technology Private Limited.
+
+   Note: Not Change Any File Postion in this File.
+=================================================== */
+
+
+
+/* <-----  Color Variable Stylesheet File Atteched Bellow -----> */
+@import url('./color-variables.css');
+
+/* <-----  Fonts's Variable Stylesheet File Atteched Bellow -----> */
+@import url('./fonts-variables.css');
+
+/* <-----  Base Stylesheet File Atteched Bellow -----> */
+@import url('./base.css');
+
+/* <-----  Container Stylesheet File Atteched Bellow -----> */
+@import url('./container.css');

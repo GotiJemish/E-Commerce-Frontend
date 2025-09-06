@@ -1,0 +1,8 @@
+.badge{
+   
+font-weight: var(--fw-400);
+font-size: var(--fs-14);
+line-height: var(--lh-18);
+padding: 6px 12px;
+
+}

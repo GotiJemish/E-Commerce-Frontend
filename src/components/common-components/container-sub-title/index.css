@@ -1,0 +1,12 @@
+.sub-title-after{
+
+&::after{
+    content: "";
+    display: block;
+    width: 44px;
+    height: 2px;
+    background-color: var(--primary);
+    margin-top:6px ;
+    border-radius: 10px;
+}
+}

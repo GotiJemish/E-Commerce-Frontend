@@ -1,0 +1,127 @@
+.new-quotation-model {
+    .highlighted {
+        background-color: var(--white-700);
+        padding: 22px 24px !important;
+    }
+
+    .quotation-form {
+        border-right: 1px solid var(--border-100);
+        /* display: inline-block; */
+        max-width: 1176px;
+        padding-right: 26px;
+    }
+
+
+    .terms-and-conditions {
+        .form-control::placeholder {
+
+            font-weight: var(--fw-400);
+            font-size: var(--fs-12);
+            line-height: var(--lh-16);
+            text-transform: capitalize;
+            color: var(--text-secondary);
+        }
+    }
+    .day-count {
+        border: 1px solid var(--border-primary);
+        border-radius: 8px;
+        padding: 12px 14px;
+        background-color: var(--white-400);
+        width: 82px;
+        font-weight: var(--fw-600);
+        font-size: var(--fs-14);
+        line-height: var(--lh-18);
+        text-align: center;
+        color: var(--primary);
+        white-space: nowrap;
+        height: 42px;
+    }
+}
+
+.table-input-cover {
+    display: flex;
+    gap: 12px;
+
+    .label {
+        color: var(--text-primary);
+        font-size: var(--fs-14);
+        line-height: var(--lh-18);
+        white-space: nowrap;
+        padding-top: 12px;
+    }
+
+    .table-input-data {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 16px;
+        width: 100%;
+    }
+}
+
+
+
+.gap-12 {
+    gap: 12px;
+}
+
+.multi-input-cover {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    .multi-label {
+        min-width: 150px;
+        /* padding-top: 12px; */
+        font-size: var(--fs-14);
+        line-height: var(--lh-18);
+        color: var(--text-primary);
+    }
+
+    .multi-inputs {
+
+        .comman-btn {
+            width: 28px;
+            height: 28px;
+            aspect-ratio: 1;
+            padding: 0 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        .table-btn {
+            width: 26px;
+            height: 26px;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: var(--white-500);
+            }
+        }
+
+        .delete-btn {
+            &:hover {
+                svg {
+                    path {
+                        stroke: var(--red);
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+.width-500 {
+    max-width: 500px;
+    width: 100%;
+}
