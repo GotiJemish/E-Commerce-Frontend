@@ -1,10 +1,34 @@
-import React from "react";
+"use client"
+import { getProductDetails } from "@/store/slice/productSlice";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-const ProductDetailPage = () => {
+const ProductDetailPage = ({id}) => {
+  const dispatch = useDispatch();
+  const productDetails = useSelector((state) => state.product.productDetail)
+const loading = useSelector((state) => state.product.loading);
+  // Fetch products when the page changes
+useEffect(() => {
+    if (!id) return; // Guard clause
+    dispatch(
+      getProductDetails({
+        id: id
+      })
+    );
+  }, [id, dispatch]);
+
+console.log("object",productDetails)
   return (
     <div className="container my-5">
       {/* Product Details */}
+
       <div className="row">
+      {loading ? (
+            <div className="text-center my-5">
+              <p>Loading products...</p>
+              {/* You can replace this with a spinner component */}
+            </div>
+          ) : (<>
         {/* Product Image */}
         <div className="col-md-5">
           <img
@@ -15,8 +39,8 @@ const ProductDetailPage = () => {
         </div>
         {/* Product Info */}
         <div className="col-md-7">
-          <h2>Product Name</h2>
-          <p className="text-muted">Category: Electronics</p>
+          <h2>{productDetails?.title}</h2>
+          <p className="text-muted">Category: {productDetails?.category?.title}</p>
 
           <div className="d-flex gap-1">
             <div className="bedge text-light bg-secondary">tag</div>
@@ -25,10 +49,9 @@ const ProductDetailPage = () => {
             <div className="bedge text-light bg-secondary">tag</div>
             <div className="bedge text-light bg-secondary">tag</div>
           </div>
-          <h4 className="text-primary">$199.99</h4>
+          <h4 className="text-primary">{productDetails?.price}</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac
-            eros nec justo finibus blandit.
+            {productDetails?.description}
           </p>
           <div className="d-flex align-items-center mb-3">
             <label className="me-2">Quantity:</label>
@@ -49,6 +72,7 @@ const ProductDetailPage = () => {
             <span className="text-warning">★★★★☆</span> (45 reviews)
           </div>
         </div>
+        </>)}
       </div>
       {/* Related Products */}
       <div className="mt-5">

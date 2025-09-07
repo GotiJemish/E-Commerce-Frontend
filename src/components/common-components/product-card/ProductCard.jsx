@@ -1,8 +1,11 @@
 import React from "react";
 import "./index.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProductCard = ({data}) => {
+  console.log("muqww",data);
+  
   return (
     <div className="card">
       <Image
@@ -13,7 +16,8 @@ const ProductCard = ({data}) => {
         alt="product-image"
       />
       <div className="card-body">
-        <h4 className="card-title">{data?.title}</h4>
+        <Link href={`/product/${data?.id}`}><h4 className="card-title">{data?.title}</h4></Link>
+        
         <h5 className="price">
           price :- <span className="text-muted">{data?.price} Rs.</span>
         </h5>
