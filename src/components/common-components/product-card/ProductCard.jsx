@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ProductCard = ({data}) => {
-  console.log("muqww",data);
+  // console.log("muqww",data);
   
   return (
     <div className="card">

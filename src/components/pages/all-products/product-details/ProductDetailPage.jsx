@@ -30,13 +30,14 @@ console.log("object",productDetails)
             </div>
           ) : (<>
         {/* Product Image */}
-        <div className="col-md-5">
-          <img
-            src="https://via.placeholder.com/500"
-            className="img-fluid rounded"
-            alt="Product Image"
-          />
-        </div>
+      <div className="col-md-5">
+  <img
+    src={productDetails?.products_images?.[0]?.image || ""}
+    className="img-fluid rounded"
+    alt={productDetails?.title || "Product Image"}
+  />
+</div>
+
         {/* Product Info */}
         <div className="col-md-7">
           <h2>{productDetails?.title}</h2>
