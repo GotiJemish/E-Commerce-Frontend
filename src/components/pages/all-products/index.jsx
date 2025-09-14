@@ -10,7 +10,7 @@ const AllProductsPage = () => {
   const dispatch = useDispatch();
   const productList = useSelector((state) => state.product.productList);
 
-  const itemsPerPage = 1;  // You can adjust this based on your design
+  const itemsPerPage = 10;  // You can adjust this based on your design
   console.log("Product List=>", productList);
 
   // Fetch products when the page changes

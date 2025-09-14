@@ -2,9 +2,10 @@ import ProductDetailPage from '@/components/pages/all-products/product-details/P
 import React from 'react'
 
 const page = ({params}) => {
-  const {productid}=params
+  const {product_id}=params
+
   return (
-    <ProductDetailPage id={productid}/>
+    <ProductDetailPage id={product_id}/>
   )
 }
 

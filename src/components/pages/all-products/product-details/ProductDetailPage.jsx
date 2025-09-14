@@ -32,7 +32,7 @@ console.log("object",productDetails)
         {/* Product Image */}
       <div className="col-md-5">
   <img
-    src={productDetails?.products_images?.[0]?.image || ""}
+    src={productDetails?.products_images?.[0]?.image || "#"}
     className="img-fluid rounded"
     alt={productDetails?.title || "Product Image"}
   />
@@ -44,11 +44,10 @@ console.log("object",productDetails)
           <p className="text-muted">Category: {productDetails?.category?.title}</p>
 
           <div className="d-flex gap-1">
-            <div className="bedge text-light bg-secondary">tag</div>
-            <div className="bedge text-light bg-secondary">tag</div>
-            <div className="bedge text-light bg-secondary">tag</div>
-            <div className="bedge text-light bg-secondary">tag</div>
-            <div className="bedge text-light bg-secondary">tag</div>
+            {productDetails?.tag_list?.map((item,i)=>(
+<span className="bedge text-light bg-secondary" key={i}>{item}</span>
+            ))}
+            
           </div>
           <h4 className="text-primary">{productDetails?.price}</h4>
           <p>
